@@ -1,0 +1,285 @@
+body{
+  margin:0px;
+  padding:0px;
+}
+body {font-family: "Lato", sans-serif}
+*
+{
+  box-sizing:border-box;
+}
+#navbar{
+  //border:1px solid red;
+ //height:60px;
+  background-color:black;
+  width:100%;
+  overflow:hidden;
+  position:fixed;
+}
+#navbar::after{
+  content:" ";
+  display: block;
+  clear:both;
+}
+#navbar ul{
+  list-style-type:none;
+  display:inline;
+  margin:0px;
+  padding:0px;
+}
+#navbar ul li{
+  float:left;
+  display:inline-block;
+}
+#navbar li a{
+  text-decoration: none;
+  color:white;
+  display:inline-block;
+  padding:14px;
+  margin:0px;
+  margin-left:17px;
+}
+#navbar li a:hover{
+  background-color:#b3b3b3;
+  color:black;
+}
+#content{
+ // border:1px solid yellow;
+  margin:0px;
+  padding:0px;
+}
+#content img{
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+#content::after{
+  content:" ";
+  display:table;
+  clear:both;
+}
+#band{
+ border:1px solid green;
+ // height:500px;
+  margin-bottom:60px;
+  margin-top:0px;
+}
+#band{
+  content:" ";
+  clear:both;
+  display:block;
+}
+#band h3{
+  margin:auto;
+  text-align: center;
+  font-size:40px;
+  margin-top:50px;
+  margin-top:50px;
+}
+#band p{
+ // margin:auto;
+  text-align: center;
+}
+#text{
+  margin:auto;
+  text-align:justify;
+  max-width:800px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  word-spacing:1px;
+}
+#box1{
+ // border:1px solid green;
+ display:block;
+  max-width:800px;;
+  margin:auto;
+  //height:300px;
+  margin-top:20px;
+}
+#box1 > div{
+  //border:1px solid blue;
+  width:auto;
+  height:auto;
+  display:inline-block;
+  margin:auto;
+ margin:30px;
+}
+#box1 >div img{
+  height:auto;
+  width:200px;
+  margin:auto;
+  vertical-align: middle;
+  border-radius:10px;
+}
+
+
+/*#box2{
+  border:1px solid green;
+  width:200px;
+  height:300px;
+  margin:auto;
+  display:inline-table;
+}
+#box3{
+  border:1px solid green;
+  width:200px;
+  height:300px;
+  float:right;
+  display:inline-table;
+}*/
+/*#sec1{
+  border:1px solid black;
+  width:33.33%;
+  height:100%;
+  display:inline-block;
+  float:left;
+}
+#sec2{
+  border:1px solid red;
+  width:33.33%;
+  height:100%;
+  display:inline-block;
+  float:left;
+}
+#sec3{
+  border:1px solid blue;
+  width:33.33%;
+  height:100%;
+  display:inline-block;
+  float:left;
+}*/
+#tour{
+background-color:black;
+ // border:1px solid red;
+ // height:900px;
+  padding:20px;
+}
+#tour h5{
+  text-align:center;
+  font-size: 40px;
+  color:white;
+}
+#tour p{
+  text-align:center;
+  margin-top:-60px;
+  color:white;
+}
+#month{
+  border:1px solid black;
+  max-width:730px;
+  //height:119px;
+  margin:auto;
+  margin-top:35px;
+  background-color:white;
+}
+#month ul{
+  padding:0px;
+  margin:0px;
+  //color:white;
+}
+#month ul li{
+  display:block;
+  list-style-type:none;
+  border-bottom:1px solid black;
+  padding:10px;
+ // margin:20px;
+  //color:white;
+}
+
+#box{
+ // border:1px solid green;
+ max-width:730px;
+ // height:350px;
+  margin:auto;
+  margin-top:40px;
+ // background-color:white;
+  padding:10px;
+  margin-bottom:80px;
+}
+#box img{
+  max-width:100%;
+  height:auto;
+}
+#image1{
+ // border:1px solid black;
+  max-width:33.33%;
+ min-height:100%;
+  float:left;
+  display:inline-block;
+ margin-left:auto;
+  //margin:5px;
+ // padding:5px;
+  background-color:white;
+}
+#image2{
+  //border:1px solid black;
+  max-width:33.33%;
+  display:inline-block;
+  height:100%;
+  margin:auto;
+ // margin-left:auto;
+ // margin-right:0px;
+  //padding:5px;
+  background-color:white;
+}
+#image3{
+  //border:1px solid black;
+  max-width:33.33%;
+  display:inline-block;
+  height:100%;
+  margin:auto;
+  float:right;
+  margin-left:0px;
+  margin-right:auto;
+  //padding:5px;
+  background-color:white;
+}
+#box h4{
+  margin:0px;
+  padding:10px;
+}
+#box p{
+  margin:0px;
+  padding:10px;
+  color:black;
+  float:left;
+  display:block;
+  text-align:left;
+}
+#contact{
+ // border:1px solid green;
+  width:100%;
+ // height:400px;
+  margin-bottom:90px;
+}
+#contact p{
+  font-size:40px;
+  padding:0px;
+  text-align:center;
+  margin-bottom: 0px;
+}
+#ab{
+  padding:0px;
+  margin:20px;
+  font-size:15px;
+  text-align:center;
+}
+#ab1{
+  margin-left:90px!important;
+  font-size:20px!important;
+  margin-top:40px!important;
+}
+#footer{
+  //border:1px solid red;
+  width:100%;
+  //height:200px;
+padding:30px;
+  background-color:black;
+}
+#footer p{
+  font-size:20px;
+  text-align:center;
+  font-family: "Lato", sans-serif;
+  color:white;
+}
+
+
